@@ -60,9 +60,17 @@ with open(budget_csv_path, newline='') as csvfile:
     Greatest_Decrease_Dates = Months[Decrease_Index]
 
 #Print output to Terminal
-output = f'''Total Months: {Total_Months}\nTotal: {Total_ProfLoss}\nAverage Change: ${Average:.2f}
+Print = f'''Financial Analysis\n-------------------------
+Total Months: {Total_Months}\nTotal: {Total_ProfLoss}\nAverage Change: ${Average:.2f}
 Greatest Increase in Profits: {Greatest_Increase_Dates} (${Greatest_Increase_Profit}
-Greatest Increase in Profits: {Greatest_Decrease_Dates} (${Greatest_Decrease_Profit})
-'''
-print(output)
+Greatest Increase in Profits: {Greatest_Decrease_Dates} (${Greatest_Decrease_Profit})'''
+print(Print)
 
+# Set variable for output file
+budget_csv_path = os.path.join("Analysis","Financial_Analysis.txt")
+
+#  Open the output file
+with open(budget_csv_path, "w") as textfile:
+
+    #Write to textfile
+    textfile.write(Print)
