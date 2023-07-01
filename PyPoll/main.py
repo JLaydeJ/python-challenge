@@ -1,9 +1,10 @@
 import os
 import csv
 
-election_csv_path = os.path.join( "Resources", "election_data")
+election_csv_path = os.path.join( "Resources", "election_data.csv")
 
 #Lists to store data
+Votes = []
 
 
 #Open CSV file
@@ -14,11 +15,19 @@ with open(election_csv_path, newline='') as csvfile:
     #Skip the header row
     next(election_reader)
     
-    #Create Loop to loop through CSV File
-    #for row in election_reader:
     
+    #Create Loop to loop through CSV File 
+    for row in election_reader:
+        #Add Votes
+        Votes.append(row[0])
+        
+        #The total number of votes cast
+        Total_Votes = len(Votes)
 
-#The total number of votes cast
+        
+
+
+
 
 #A complete list of candidates who received votes
 
@@ -28,9 +37,13 @@ with open(election_csv_path, newline='') as csvfile:
 
 #The winner of the election based on popular vote
 
-
-
-#'''Election Results
+Print = f'''Election Results\n-------------------------
+Total Votes: {Total_Votes}\n
+Winner:
+'''
+print(Print)
+#{}: {} {()} \n {}: {} {()} \n {}: {} {()}
+#Election Results
 #-------------------------
 #Total Votes: 369711
 #-------------------------
