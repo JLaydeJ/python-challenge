@@ -1,12 +1,16 @@
 import os
 import csv
 
+#Set variable for
 budget_csv_path = os.path.join("Resources","budget_data.csv")
 
 #Lists to store data
 Months = []
 Profit_Losses = []
 Profit_Losses_Change = []
+
+#Set inital values
+#Total_Months = 0 
 
 #Open CSV file
 with open(budget_csv_path, newline='') as csvfile:
@@ -22,19 +26,25 @@ with open(budget_csv_path, newline='') as csvfile:
     #Set inital previous profit/losses net amounts
     Previous_Total = int(Budget_Table[0][1])
 
+    #Set initial number of months excluded in table created 
+    Initial_Month = 1
+
+    #Set initial number of profit/losses excluded in table created 
+    Initial_Profit_Losses = 1088983
+    
     #Create Loop to loop through CSV File
     for row in budget_reader:
         #Add months/dates
         Months.append(row[0])
 
-        #The total number of months included in the dataset
-        Total_Months = len(Months)
-        
+        #The total number of months included in the dataset plus inital month
+        Total_Months = len(Months) + Initial_Month
+       
         #Add profit/losses
         Profit_Losses.append(int(row[1]))
 
         #The net total amount of "Profit/Losses" over the entire period
-        Total_ProfLoss = sum(Profit_Losses)
+        Total_ProfLoss = sum(Profit_Losses) + Initial_Profit_Losses
 
         #Tried setting Changes = 0 and got syntac error
         #Tried setting Changes = [] inside loop but got -224669.0, so I put Changes = [] outside loop
