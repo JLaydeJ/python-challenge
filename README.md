@@ -1,5 +1,5 @@
 # python-challenge
-PyBank Instructions:
+# **PyBank Instructions:**
 
 In this Challenge, you are tasked with creating a Python script to analyze the financial records of your company. You will be given a financial dataset called budget_data.csv. The dataset is composed of two columns: "Date" and "Profit/Losses".
 
@@ -20,7 +20,8 @@ Your analysis should align with the following results:
 
 In addition, your final script should both print the analysis to the terminal and export a text file with the results.
 
-PyPoll Instructions:
+
+# **PyPoll Instructions:**
 
 In this Challenge, you are tasked with helping a small, rural town modernize its vote-counting process.
 
@@ -41,7 +42,8 @@ Your analysis should align with the following results:
 
 In addition, your final script should both print the analysis to the terminal and export a text file with the results.
 
-Hints and Considerations:
+
+**Hints and Considerations:**
 
 Consider what you've learned so far. You've learned how to import modules like csv. You’ve learned how to read and write files in various formats. You’ve learned how to store content in variables, lists, and dictionaries. You’ve learned how to iterate through basic data structures. And you’ve learned how to debug along the way. Using all that you've learned, try to break down your tasks into discrete mini-objectives.
 
