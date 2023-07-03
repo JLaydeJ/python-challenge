@@ -17,6 +17,7 @@ Your task is to create a Python script that analyzes the records to calculate ea
 Your analysis should align with the following results:
 
 ![Bank](https://github.com/JLaydeJ/python-challenge/assets/134284646/1d0cd8b5-949d-4572-96fc-55c92cf083fc)
+
 In addition, your final script should both print the analysis to the terminal and export a text file with the results.
 
 # **PyPoll Instructions:**
@@ -38,6 +39,7 @@ You will be given a set of poll data called election_data.csv. The dataset is co
 Your analysis should align with the following results:
 
 ![election](https://github.com/JLaydeJ/python-challenge/assets/134284646/144d795b-bff5-4b04-9451-35d41f068e57)
+
 In addition, your final script should both print the analysis to the terminal and export a text file with the results.
 
 **Hints and Considerations:**
