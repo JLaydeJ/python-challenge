@@ -16,7 +16,7 @@ The greatest increase in profits (date and amount) over the entire period
 The greatest decrease in profits (date and amount) over the entire period
 
 Your analysis should align with the following results:
-![image](https://github.com/JLaydeJ/python-challenge/assets/134284646/ff2ad18c-9b43-4aad-8370-ddad72cdd1c4)
+![Alt text](image.png)
 
 In addition, your final script should both print the analysis to the terminal and export a text file with the results.
 
@@ -38,7 +38,7 @@ The total number of votes each candidate won
 The winner of the election based on popular vote
 
 Your analysis should align with the following results:
-![image](https://github.com/JLaydeJ/python-challenge/assets/134284646/0d82fec9-45b4-401e-b6bb-731c520ba53c)
+![Alt text](image-1.png)
 
 In addition, your final script should both print the analysis to the terminal and export a text file with the results.
 
