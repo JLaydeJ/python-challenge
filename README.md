@@ -15,10 +15,11 @@ Your task is to create a Python script that analyzes the records to calculate ea
     -The greatest decrease in profits (date and amount) over the entire period
 
 Your analysis should align with the following results:
-!(image.png)
+
 
 In addition, your final script should both print the analysis to the terminal and export a text file with the results.
 
+![Financial Analysis](https://github.com/JLaydeJ/python-challenge/assets/134284646/dde0fb9a-2650-41ee-9aee-41b2707c2650)
 
 # **PyPoll Instructions:**
 
@@ -37,10 +38,11 @@ You will be given a set of poll data called election_data.csv. The dataset is co
     -The winner of the election based on popular vote
 
 Your analysis should align with the following results:
-!(image-1.png)
+
 
 In addition, your final script should both print the analysis to the terminal and export a text file with the results.
 
+![Election Results](https://github.com/JLaydeJ/python-challenge/assets/134284646/ed7b3b4f-73cf-42f7-9a9c-34dbee95672a)
 
 **Hints and Considerations:**
 
