@@ -19,7 +19,8 @@ Your analysis should align with the following results:
 
 In addition, your final script should both print the analysis to the terminal and export a text file with the results.
 
-![Financial Analysis](https://github.com/JLaydeJ/python-challenge/assets/134284646/dde0fb9a-2650-41ee-9aee-41b2707c2650)
+
+![Bank](https://github.com/JLaydeJ/python-challenge/assets/134284646/1d0cd8b5-949d-4572-96fc-55c92cf083fc)
 
 # **PyPoll Instructions:**
 
@@ -42,7 +43,7 @@ Your analysis should align with the following results:
 
 In addition, your final script should both print the analysis to the terminal and export a text file with the results.
 
-![Election Results](https://github.com/JLaydeJ/python-challenge/assets/134284646/ed7b3b4f-73cf-42f7-9a9c-34dbee95672a)
+![election](https://github.com/JLaydeJ/python-challenge/assets/134284646/144d795b-bff5-4b04-9451-35d41f068e57)
 
 **Hints and Considerations:**
 
