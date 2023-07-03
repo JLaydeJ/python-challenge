@@ -15,7 +15,7 @@ Your task is to create a Python script that analyzes the records to calculate ea
     -The greatest decrease in profits (date and amount) over the entire period
 
 Your analysis should align with the following results:
-![Alt text](image.png)
+!(image.png)
 
 In addition, your final script should both print the analysis to the terminal and export a text file with the results.
 
@@ -37,7 +37,7 @@ You will be given a set of poll data called election_data.csv. The dataset is co
     -The winner of the election based on popular vote
 
 Your analysis should align with the following results:
-![Alt text](image-1.png)
+!(image-1.png)
 
 In addition, your final script should both print the analysis to the terminal and export a text file with the results.
 
